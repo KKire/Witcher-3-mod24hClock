@@ -74,9 +74,10 @@ class CR4MeditationClockMenu extends CR4MenuBase
 		
 		m_fxSetBlockMeditation.InvokeSelfOneArg( FlashArgBool( !canMeditateWait ) );
 		
+
 		
-		
-		locCode = GetCurrentTextLocCode();
+		// mod24hClock
+		//locCode = GetCurrentTextLocCode();
 		m_fxSet24HRFormat.InvokeSelfOneArg(FlashArgBool(true));
 		
 		
@@ -117,6 +118,8 @@ class CR4MeditationClockMenu extends CR4MenuBase
 		{
 			MeditatingEnd();
 		}
+		
+		theGame.RemoveAllTimeScales(); 
 		
 		if (!theGame.IsPaused())
 		{
