@@ -3,7 +3,7 @@
     "modName": "24h clock for English",
     "version": "2.1.0",
     "gameVersion": "",
-    "description": "24h clock on the HUD when language is set to English.\nWhen you set your language to English, the game forces 12h AM/PM time format. This simple mod forces the game to use 24h format regardless of language set.",
+    "description": "[b]24h clock on the HUD when language is set to English.[/b]\n\nWhen you set your language to English, the game forces 12h AM/PM time format. This simple mod forces the game to use 24h format regardless of language set.",
     "thumbnail": "C:\\Users\\Kire\\DevDrive\\repos\\Witcher-3-mod24hClock\\modImage.png",
     "author": "",
     "idSpace": 10000000,
